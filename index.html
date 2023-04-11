@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Food App</title>
+    <style>
+      header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+header li {
+  float: left;
+}
+
+ header li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+header li a:hover {
+  background-color: #111;
+}
+      .text-content a{
+        text-decoration:none;
+        color:black;
+      }
+      .images{
+        width:50%;
+        margin:0 auto;
+      }
+      .labels{
+        margin-left:240px;
+        margin-bottom:40px;
+      }
+      .fooditem{
+        width:500px;
+        height:500px;
+      }
+    </style>
+  </head>
+  <body style="padding:0px;margin:0px;background-color:grey;">
+    <header>
+      <ul>
+        <li><a href="#">Index</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </header>
+    <div class="main">
+      <div class="text-content">
+        <h2>Top 5 favourite foods</h2>
+        <ul>
+          <li><a href="#masala dosa">Masala dosa</a></li>
+          <li><a href="#puri">Puri</a></li>
+          <li><a href="#pizza">Pizza</a></li>
+          <li><a href="#ice cream">Ice cream</a></li>
+          <li><a href="#meals">Meals</a></li>
+        </ul>
+      </div> 
+      <div class="images">
+        <div id="masala dosa"><img src="5.jpg"  class="fooditem"></div>
+        <p class="labels">Masala dosa</p>
+        <div id="puri"><img src="4.jpg"  class="fooditem"/></div>
+        <p class="labels">Puri</p>
+        <div id="pizza"><img src="3.jpg"  class="fooditem"/></div>
+        <p class="labels">Pizza</p>
+        <div id="ice cream"><img src="2.jpg" class="fooditem"/></div>
+        <p class="labels">Ice cream</p>
+        <div id="meals"><img src="1.jpg"  class="fooditem"/></div>
+        <p class="labels">Meals</p>
+      </div>
+    </div>
+  </body>
+</html>
